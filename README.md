@@ -5,7 +5,7 @@ This assessment has two parts - some questions about this week's lessons, and an
 
 Fork this repository!
 
-## Questions (8 Points Possible)
+## Questions (12 Points Possible)
 Edit this `README.md` file - answer the BLANK questions before moving on to the exercise.  Make sure to SAVE your changes to the README before moving on!
 
 1. Review the class definition below:
@@ -39,9 +39,42 @@ Edit this `README.md` file - answer the BLANK questions before moving on to the 
 
 5. When you create a test project, you do not immediately have access to the class(es) in the project that you are testing.  What do you need to do in order to have access to those classes?
 
+6. Take a look at the class below.  Write out the **names** of each test you would write to verify that this class is working.
+```c#
+    public class Vehicle
+    {
+        public int NumberOfWheels { get; }
+        public string Color { get; private set;  }
+        public int MilesDriven { get; private set; }
+
+        public Vehicle(int numberOfWheels, string color)
+        {
+            NumberOfWheels = numberOfWheels;
+            Color = color;
+            MilesDriven = 0;
+        }
+
+        public string Sumary()
+        {
+            string summary = $"This {Color} vehicle has {NumberOfWheels} wheels, and has driven {MilesDriven} miles.";
+            return summary;
+        }
+
+        public void Drive()
+        {
+            MilesDriven += 5;
+        }
+
+        public void Paint(string newColor)
+        {
+            Color = newColor;
+        }
+    }
+```
 
 
-## Exercise (12 Points Possible)
+
+## Exercise (8 Points Possible)
 In Visual Studio, clone your forked repository.  
 In this solution, there is a `Vehicle` project and a `Vehicle.UnitTests` project.  The class in `Vehicle.cs` is complete, but the tests for that class are not yet finished.  Add tests to the `VehicleTests.cs` file so that all the methods and properties for the `Vehicle` class have tests.  When finished, there should be a minimum of 4 tests (one is already completed for you!).
 
