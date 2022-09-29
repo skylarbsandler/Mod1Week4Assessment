@@ -22,11 +22,11 @@ Edit this `README.md` file - answer the BLANK questions before moving on to the 
         }
     }
     ```
-    Which of the following is NOT a valid way to create an instance of Chair? And why does this option not work?
-    A. `var bench = new Chair(24, true);`
-    B. `Chair bench = new Chair(24, true);`
-    C. `var bench = new(24, true);`
-    D. `Chair bench = new(24, true);`
+    Which of the following is NOT a valid way to create an instance of Chair? And why does this option not work?  
+    A. `var bench = new Chair(24, true);`  
+    B. `Chair bench = new Chair(24, true);`  
+    C. `var bench = new(24, true);`  
+    D. `Chair bench = new(24, true);`  
     
 2. Imagine you are interviewing for your first job.  The interviewer asks "What can you tell me about OOP?".  Write your response below:
 
@@ -42,7 +42,8 @@ Edit this `README.md` file - answer the BLANK questions before moving on to the 
 
 
 ## Exercise (12 Points Possible)
-In Visual Studio, clone your forked repository. In this solution, there is a `Vehicle` project and a `Vehicle.UnitTests` project.  The class in `Vehicle.cs` is complete, but the tests for that class are not yet finished.  Add tests to the `VehicleTests.cs` file so that all the methods and properties for the `Vehicle` class have tests.  When finished, there should be a minimum of 4 tests (one is already completed for you!).
+In Visual Studio, clone your forked repository.  
+In this solution, there is a `Vehicle` project and a `Vehicle.UnitTests` project.  The class in `Vehicle.cs` is complete, but the tests for that class are not yet finished.  Add tests to the `VehicleTests.cs` file so that all the methods and properties for the `Vehicle` class have tests.  When finished, there should be a minimum of 4 tests (one is already completed for you!).
 
 ### Submission
 
