@@ -19,7 +19,7 @@ namespace Vehicle
             MilesDriven = 0;
         }
 
-        public string Sumary()
+        public string Summary()
         {
             string summary = $"This {Color} vehicle has {NumberOfWheels} wheels, and has driven {MilesDriven} miles.";
             return summary;
