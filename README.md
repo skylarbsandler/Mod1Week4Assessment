@@ -76,8 +76,8 @@ In order to access classes in a test project, we need to add a project reference
 ```
 1. Constructor_WhenInstantiated_SetsPropertyValues()
 2. Summary_UtilizesCorrectValues()
-3. Confirm_Vechicle_AddsMileageCorrectly
-4. Confirm_Vehicle_PaintColor_GetsReassigned
+3. Confirm_Vechicle_AddsMileageCorrectly()
+4. Confirm_Vehicle_PaintColor_GetsReassigned()
 
 
 ## Exercise (8 Points Possible)
